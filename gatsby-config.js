@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/gatsby-react-bootstrap-starter",
+  pathPrefix: "/newGrupSidip",
   siteMetadata: {
     title: `Grupsidip.org`,
     description: `peritos, documentoscopia, dicas, poligrafo`,
