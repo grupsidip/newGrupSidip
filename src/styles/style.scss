@@ -1,5 +1,68 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "variables";
-
 @import "layout";
 @import "navbar";
+
+.index {
+    position: relative;
+    min-height: 430px;
+    background: url("../images/home.jpg") no-repeat scroll 0px 100% / cover transparent;
+}
+
+@media only screen and (max-width: 410px) {
+    #footerSidip {
+        display: none;
+    }
+}
+
+a:link {
+    text-decoration: none;
+    color: gray;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.nav {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+    margin-right: 10px;
+}
+
+.nav:last-child {
+    margin-right: 0;
+}
+
+.nav:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.nav:hover {
+    color: white;
+}
+
+.nav:hover:after {
+    width: 100%;
+    background: white;
+}
+
+#content {
+    position: relative;
+}

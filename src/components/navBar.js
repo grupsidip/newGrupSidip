@@ -1,7 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap"
+import { Navbar, Nav, Image } from "react-bootstrap"
+import crdCe from '../images/index/ANAGRAMA.jpg'
 
 const CustomNavbar = ({ pageInfo }) => {
   console.log(pageInfo)
@@ -10,38 +11,35 @@ const CustomNavbar = ({ pageInfo }) => {
       <Navbar variant="dark" expand="lg" id="site-navbar">
         {/* <Container> */}
         <Link to="/" className="link-no-style mr-auto">
-          <Navbar.Brand as="span">Grupsidip.org</Navbar.Brand>
+          <Navbar.Brand as="span"> <span className='ml-2 mr-auto'>
+            <Image src={crdCe} width='50' rounded></Image>
+          </span> Grupsidip.org</Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto" activeKey={pageInfo && pageInfo.pageName}>
             <Link to="/investigacao" className="link-no-style">
-              <Nav.Link as="span" eventKey="investigacao">
-                INVESTIGACAO
+              <Nav.Link as="span" eventKey="investigacao" className="nav">
+                INVESTIGAÇÃO
               </Nav.Link>
             </Link>
             <Link to="/peritos" className="link-no-style">
-              <Nav.Link as="span" eventKey="peritos">
+              <Nav.Link as="span" eventKey="peritos" className="nav">
                 PERITOS
               </Nav.Link>
             </Link>
             <Link to="/dicas" className="link-no-style">
-              <Nav.Link as="span" eventKey="dicas">
+              <Nav.Link as="span" eventKey="dicas" className="nav">
                 DICAS
               </Nav.Link>
             </Link>
             <Link to="/reportagens" className="link-no-style">
-              <Nav.Link as="span" eventKey="reportagens">
+              <Nav.Link as="span" eventKey="reportagens" className="nav">
                 REPORTAGENS
               </Nav.Link>
             </Link>
-            <Link to="/assossiacoes" className="link-no-style">
-              <Nav.Link as="span" eventKey="assossiacoes">
-                ASSOSSIACOES
-              </Nav.Link>
-            </Link>
             <Link to="/contatar" className="link-no-style">
-              <Nav.Link as="span" eventKey="contatar">
+              <Nav.Link as="span" eventKey="contatar" className="nav">
                 CONTATAR
               </Nav.Link>
             </Link>
