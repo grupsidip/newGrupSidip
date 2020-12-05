@@ -4,8 +4,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAt, faPhone, faUser, faMapMarker, faCalendarAlt } from '@fortawesome/free-solid-svg-icons'
-// import { config } from '@fortawesome/fontawesome-svg-core';
-// config.autoAddCss = false; /* eslint-disable import/first */
 
 
 const Contatar = () => (

@@ -1,4 +1,5 @@
 import React from "react"
+import '@fortawesome/fontawesome-svg-core/styles.css'
 import { StaticQuery, graphql } from "gatsby"
 import { Container, Row, Col, Image } from "react-bootstrap"
 import Navbar from "./navBar"
@@ -8,6 +9,10 @@ import usaFlag from '../images/index/usa-flag.png'
 import europeFlag from '../images/index/europe-flag.png'
 import crdCe from '../images/index/crd-ce.jpg'
 import escudo from '../images/index/escudo.gif'
+
+import { config } from '@fortawesome/fontawesome-svg-core';
+config.autoAddCss = false; /* eslint-disable import/first */
+
 
 const Layout = ({ children, pageInfo }) => (
   <StaticQuery
