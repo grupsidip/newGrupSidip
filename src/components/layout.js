@@ -33,7 +33,7 @@ const Layout = ({ children, pageInfo }) => (
           <Navbar pageInfo={pageInfo} />
           <Row noGutters id='content'>
             <Col>
-              <Container className="mt-5">
+              <Container className="pt-4">
                 <main>{children}</main>
               </Container>
             </Col>
