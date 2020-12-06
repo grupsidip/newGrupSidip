@@ -5,13 +5,42 @@
 
 .index {
     position: relative;
-    min-height: 430px;
+    min-height: 350px;
     background: url("../images/home.jpg") no-repeat scroll 0px 100% / cover transparent;
+}
+
+.maintitle {
+    color: #111;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 1.2rem;
+    color: gray;
 }
 
 @media only screen and (max-width: 410px) {
     #footerSidip {
         display: none;
+    }
+
+    .index {
+        position: relative;
+        min-height: 430px;
+        background: url("../images/home.jpg") no-repeat scroll 0px 0% / cover transparent;
+    }
+
+    .maintitle {
+        font-size: 1.5rem;
+    }
+
+    .title {
+        font-size: 0.8rem;
+        color: gray;
     }
 }
 
