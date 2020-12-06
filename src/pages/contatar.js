@@ -20,7 +20,7 @@ const Contatar = () => (
           <p><strong>Entre em contato conosco! </strong></p>
           <p><FontAwesomeIcon icon={faPhone} className='mr-1' />Telefone: (0055) 85 99957562 (Plant&atilde;o 24 horas)</p>
           <p><FontAwesomeIcon icon={faPhone} className='mr-1' />(0055) 85 96142695 (Plant&atilde;o 24 horas)</p>
-          <p><FontAwesomeIcon icon={faPhone} className='mr-1' />escrit&oacute;rio: (0055) 85 30886784 </p>
+          <p><FontAwesomeIcon icon={faPhone} className='mr-1' />escrit&oacute;rio: (0055) 85 32329022 </p>
           <p><strong>Horario de atendimento escritorio: </strong></p>
           <p><FontAwesomeIcon icon={faCalendarAlt} className='mr-1' />Das 08:00 - 18:00 (Segunda a Sexta) </p>
           <p><strong>Endere&ccedil;o para Correspond&ecirc;ncia: </strong><strong></strong></p>
@@ -39,7 +39,7 @@ const Contatar = () => (
                 <Card.Text className='my-1 h-50 pt-2'>
                   <p className='text-center pl-2'><FontAwesomeIcon icon={faPhone} className='mr-1' />Brazil (0055) 85 99957562 </p>
                   <p className='text-center pl-2'><FontAwesomeIcon icon={faPhone} className='mr-1' />Brazil (0055) 85 32329022 </p>
-                  <p className='text-center pl-2 small'><FontAwesomeIcon icon={faAt} className='mr-1' /><a href="mailto:Juantomas.grupsidip@hotmail.com">Juantomas.grupsidip@hotmail.com </a></p>
+                  <p className='text-center pl-2 small'><FontAwesomeIcon icon={faAt} className='mr-1' /><a href="mailto:grupsidip@gmail.com">grupsidip@gmail.com </a></p>
                   <p className='text-center pl-2 small'><FontAwesomeIcon icon={faAt} className='mr-1' /><a href="mailto:juantomas.grupsidip@gmail.com ">juantomas.grupsidip@gmail.com </a></p>
                 </Card.Text>
                 <Card.Footer className='text-center text-muted h-25 '> Director/International Relationship </Card.Footer>
