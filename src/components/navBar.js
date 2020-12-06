@@ -28,6 +28,11 @@ const CustomNavbar = ({ pageInfo }) => {
                 PERITOS
               </Nav.Link>
             </Link>
+            <Link to="/legislacao" className="link-no-style">
+              <Nav.Link as="span" eventKey="legislacao" className="nav">
+                LEGISLAÇÃO
+              </Nav.Link>
+            </Link>
             <Link to="/dicas" className="link-no-style">
               <Nav.Link as="span" eventKey="dicas" className="nav">
                 DICAS
