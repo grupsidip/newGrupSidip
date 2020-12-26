@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/newGrupSidip",
+  pathPrefix: "/",
   siteMetadata: {
     title: `Grupsidip.org`,
     description: `peritos, documentoscopia, dicas, poligrafo`,
